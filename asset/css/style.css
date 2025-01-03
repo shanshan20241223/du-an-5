@@ -1,0 +1,78 @@
+/* reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 6.tạo font chữ không chân */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mani {
+}
+#header {
+  height: 46.5px;
+  background-color: #000000;
+}
+
+/* xóa dấu thứ tự khi sử dụng thẻ ul */
+#nav,
+.subnav {
+  list-style-type: none;
+}
+
+/* 2.đặt navigation nằm ngang */
+#nav li {
+  position: relative;
+}
+
+#nav > li {
+  display: inline-block;
+}
+
+/* 3 ẩn thẻ cấp 2 */
+#nav .subnav {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px black;
+}
+
+#nav .subnav a {
+  color: #000;
+  padding: 0 12px;
+  line-height: 38px;
+}
+
+/* đổi thành in hoa */
+#nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* 4 thay màu chữ, xóa gạch chân, căn giữa, sửa khoảng các chữ */
+#nav li a {
+  text-decoration: none;
+  line-height: 46.5px;
+  padding: 0 24px;
+}
+
+/* 7 tạo hiệu ứng đổi màu khi click */
+#header #nav li:hover {
+  color: #000;
+  background-color: #ccc;
+}
+#nav li:hover .subnav {
+  display: block;
+}
+
+#slider {
+  min-height: 500px;
+  /* background-color: #000000; */
+}
+#content {
+}
+#ooter {
+}
