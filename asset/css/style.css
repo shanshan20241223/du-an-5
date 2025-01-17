@@ -20,6 +20,7 @@ html {
 }
 #main {
 }
+
 #header {
   height: 46.5px;
   background-color: #000000;
@@ -92,7 +93,7 @@ html {
 
 #header .search-icon {
   line-height: 46.5px;
-  padding: 0 21px;
+  padding: 0 21px;cc.com.tno(holigudholigud)
 }
 
 #header .search-btn:hover {
@@ -124,7 +125,6 @@ html {
   font-size: 15px;
 }
 #content {
-  min-height: 1000px;
 }
 
 #content .content-section {
@@ -174,7 +174,6 @@ html {
 /* tour-section */
 .tour-section {
   background-color: #000;
-  
 }
 
 .tickets-list {
@@ -192,7 +191,7 @@ html {
 .tickets-list .sold-out {
   background-color: #f44336;
   color: #fff;
-  padding: 0px 8px;
+  padding: 3px 8px;
   margin-left: 16px;
 }
 .tickets-list .quatity {
@@ -205,6 +204,7 @@ html {
   text-align: center;
   line-height: 24px;
   margin-top: -3px;
+}
 .content-section {
 }
 .section-heading {
@@ -212,11 +212,252 @@ html {
 .section-sub-heading {
 }
 
-/* test */
-.test{
-  float: left;
+.places-list {
+  padding-bottom: 48px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: 32px;
 }
-/* test*/
+.place-item {
+  padding: 0 8px;
+  float: left;
+  width: 33.3333%;
+}
+.place-img {
+  width: 100%;
+  display: block;
+}
+.place-img:hover {
+  opacity: 0.6;
+}
+.place-body {
+  font-size: 15px;
+  padding: 16px;
+  background-color: #fff;
+}
+.place-heading {
+  font-size: 15px;
+}
+.place-time {
+  color: #757575;
+  margin-top: 15px;
+}
+.place-desc {
+  line-height: 1.4;
+}
+.place-buy-bth {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.place-buy-bth:hover {
+  color: #000;
+  background-color: #ccc;
+}
 
-#footer {
+/* test */
+.content-section{
+  padding:46px 0;
+}
+.contact-list{
+  min-height: 200px;
+  padding:32px 0;
+  
+}
+
+
+.contact-thongtin{
+  float: left;
+  width:50%;
+  position:relative;
+  
+}
+
+.vetrai{
+  height:86px;
+  font-size:18px;
+ 
+}
+
+.contact-map{
+  padding-bottom:4px;
+}
+
+.contact-phone{
+  padding-bottom:4px;
+}
+.contact-icon{
+  padding-right:10px;
+  
+}
+.contact-inputs{
+ 
+}
+.input{
+  width: 48%;
+padding: 8px;
+margin-bottom:8px;
+  
+}
+.input-email{
+  margin-left:10px;
+
+  
+}
+.input-message{
+  width: 100%;
+}
+
+
+.contact-button{
+  position:absolute;
+  right:0;
+  margin:16px 0;
+  padding:8px 16px;
+  background:#000;
+  color:#fff;
+  border:none;
+  text-transform:uppercase;
+}
+.contact-button:hover{
+  cursor:pointer;
+  background:#ccc;
+  color:#000;
+}
+
+
+#hello{
+  background: url(/asset/img/slider/map.jpg)top center / cover no-repeat ;
+  height: 954.5px;
+  
+}
+.footer{
+  padding:64px 0;
+  width:100%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+
+.icon-all{
+  display: inline-flex;
+}
+
+.footer-icon {
+ margin: 5px;
+  font-size: 20px;
+  
+}
+.footer-text{
+  padding-top: 16px;
+}
+.footer-text a{
+  color: inherit;
+}
+
+
+/* test */
+
+
+
+
+/* s:modal */
+.modal{
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.modal.open{
+  display:flex;
+
+}
+
+.modal-container{
+  background: #fff;
+  width:900px;
+  min-height:300px;
+  position:relative;
+
+}
+.modal-close {
+  position: absolute;
+   right:0;
+   top:0;  
+   color:#fff;
+   padding:10px;
+   opacity:0.8;
+}
+
+.modal-close:hover{
+  cursor:pointer;
+  opacity:1;
+  background:red;
+  color:#000;
+}
+
+.modal-header{
+  text-transform:uppercase;
+  background:#009688;
+  font-size:30px ;
+  letter-spacing: 4px;
+  height:130px;
+  color:#fff;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-header .ti-bag{
+  padding-right:10px;
+
+}
+
+.modal-body{
+  padding: 16px;
+  
+}
+
+.modal-label{
+  display: block;
+  padding-bottom:12px;
+}
+
+.modal-input{
+  width:100%;
+  border: 1px solid #ccc;
+  margin-bottom:24px;
+  padding:8px;
+}
+
+#buy-tickets{
+  background:#009688;
+  color:#fff;
+  text-transform: uppercase;
+  width:100%;
+  padding:16px;
+  margin-bottom:16px;
+  border:none;
+}
+#buy-tickets:hover{
+  cursor: pointer;
+  background: #ccc;
+  color:#000;
+}
+
+.modal-footer{
+  text-align:right;
+  padding:16px;
+margin-bottom: 30px;
+}
+.modal-footer a{
+ color:#2196F3;
 }
